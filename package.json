@@ -4,14 +4,22 @@
   "description": "Curso de Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runner": "cypress open --e2e --browser chrome",
+    "cypress:execution": "cypress run --spec cypress/e2e/features/*"
   },
   "keywords": [],
   "author": "Franco Morina",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
-    "cypress": "^12.5.1"
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.5.1",
+    "cypress-esbuild-preprocessor": "^1.0.2",
+    "esbuild": "^0.17.8",
+    "multiple-cucumber-html-reporter": "^3.0.1"
   },
   "dependencies": {
     "cypress-plugin-tab": "^1.0.5"
