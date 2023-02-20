@@ -2,7 +2,7 @@ Feature: Demo de Cucumber
 
     Demostracion de como utilizar cucumber
 
-    Scenario: Demo de cucumber dos
+    Scenario Outline: Demo de cucumber dos
     Given Abrir el navegador principal
     When Cargando el nombre <nombre>
     When Cargando el email
@@ -12,3 +12,4 @@ Feature: Demo de Cucumber
     Examples:
         | nombre |
         | FrancoC|
+        | FrancoM|
