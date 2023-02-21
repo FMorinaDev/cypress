@@ -32,4 +32,5 @@ module.exports = defineConfig({
     chromeWebSecurity: false,
     pageLoadTimeout: 70000,
   },
+  projectId: "8ym63d"
 });
