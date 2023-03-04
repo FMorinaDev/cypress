@@ -31,6 +31,7 @@ module.exports = defineConfig({
     viewportHeight: 900,
     chromeWebSecurity: false,
     pageLoadTimeout: 70000,
+    experimentalStudio: true
   },
   projectId: "8ym63d"
 });
